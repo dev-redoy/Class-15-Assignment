@@ -1,0 +1,304 @@
+/*==========================
+Default Css Hear
+==========================*/
+* {
+    margin: 0;
+    padding: 0;
+}
+
+.clearfixed::after {
+    content: "";
+    clear: both;
+    display: block;
+}
+
+.container {
+    width: 1360px;
+    max-width: 97%;
+    margin: auto;
+}
+
+/*==========================
+Header Section start
+==========================*/
+.header-section {
+    background-color: #22C3A3;
+}
+
+.logo {
+    float: left;
+    ;
+}
+
+.logo a {
+    color: #fff;
+    text-decoration: none;
+    font-size: 25px;
+    line-height: 80px;
+    padding: 50px;
+}
+
+.menu {
+    float: right;
+}
+
+.menu ul {
+    list-style: none;
+    margin-right: 30px;
+}
+
+.menu ul li {
+    float: left;
+}
+
+.menu ul li a {
+    color: #fff;
+    text-decoration: none;
+    padding: 0 10px;
+    line-height: 80px;
+    font-size: 15px;
+}
+
+.menu ul li a:hover {}
+
+
+/*==========================
+slider-section start
+==========================*/
+.slider-section {
+    background-image: url(img/header-bg01.jpg);
+    background-repeat: no-repeat;
+    background-size: cover;
+    padding: 230px 0;
+    text-align: center;
+}
+
+.slider-content {
+    color: #fff;
+}
+
+.slider-content h1 {
+    margin-bottom: 20px;
+    font-size: 55px;
+}
+
+.slider-content h6 {
+    font-size: 20px;
+    margin-bottom: 60px;
+}
+
+.slider-content a {
+    color: #fff;
+    text-decoration: none;
+    border: 2px solid #fff;
+    padding: 10px 25px;
+    border-radius: 5px;
+    font-family: 'Open Sans', sans-serif;
+    font-size: 18px;
+}
+
+/*==========================
+Service-Section start
+==========================*/
+.service-section {
+    text-align: center;
+    padding: 100px 0;
+}
+
+.service-title {
+    margin-bottom: 50px;
+}
+
+.service-title h4 {
+    color: #555555;
+    font-size: 30px;
+    padding-bottom: 20px;
+}
+
+.service-title p {
+    color: #808080;
+    font-size: 16px;
+    font-family: 'Open Sans', sans-serif;
+}
+
+.service-item {
+    margin: 50px 0;
+    width: 23%;
+    float: left;
+    padding: 10px 25px;
+    box-sizing: border-box;
+    margin-right: 2%;
+}
+
+.service-item:last-child {
+    margin-right: 0;
+}
+
+.service-item .s-icon {
+    margin: 20px 0;
+}
+
+.service-item .s-icon span {
+    color: #0CBF98;
+    font-size: 36px;
+}
+
+.service-item h4 {
+    color: #6A6A6A;
+    font-size: 20px;
+    font-family: 'Open Sans', sans-serif;
+    margin-bottom: 10px;
+}
+
+.service-item p {
+    color: #808080;
+    font-family: 'Open Sans', sans-serif;
+    font-size: 15px;
+}
+
+
+/*==========================
+About-Section start
+==========================*/
+.about-section {
+    text-align: center;
+    border-top: 2px solid #0DBF9B;
+    margin-bottom: 100px;
+}
+
+.about-title {
+    margin: 60px 0;
+}
+
+.about-title h4 {
+    color: #555555;
+    font-size: 30px;
+    padding-bottom: 20px;
+}
+
+.about-title p {
+    color: #808080;
+    font-size: 16px;
+    font-family: 'Open Sans', sans-serif;
+}
+
+.about-image {
+    float: left;
+    width: 45%;
+}
+
+.about-image img {
+    margin-right: 5%;
+    margin-left: 5%;
+    max-width: 100%;
+}
+
+.about-content {
+    float: right;
+    width: 50%;
+    text-align: left;
+}
+
+.about-content h4 {
+    color: #636363;
+    /* color: #555555; */
+    font-size: 20px;
+    padding-bottom: 10px;
+    padding-top: 15px;
+    font-family: 'Open Sans', sans-serif;
+    font-weight: 600;
+
+}
+
+.about-content p {
+    color: #808080;
+    font-size: 16px;
+    font-family: 'Open Sans', sans-serif;
+}
+
+/*==========================
+Contact-Section start
+==========================*/
+.contact-section {
+    text-align: center;
+    padding: 50px 0 70px 0;
+    background-color: #F6F6F6;
+}
+
+.contact-title {
+    margin-bottom: 50px;
+}
+
+.contact-title h4 {
+    color: #555555;
+    font-size: 30px;
+    padding-bottom: 20px;
+}
+
+.contact-title p {
+    color: #808080;
+    font-size: 16px;
+    font-family: 'Open Sans', sans-serif;
+}
+
+.fiexd-width {
+    width: 70%;
+    margin: auto;
+}
+
+.contact-details {
+    float: left;
+    width: 33.3%;
+}
+
+.c-icon {
+    margin-bottom: 15px;
+}
+
+.contact-details span {
+    color: #0DBF9B;
+}
+
+.contact-details p {
+    padding-bottom: 5px;
+    color: #808080;
+    font-size: 16px;
+    font-family: 'Open Sans', sans-serif;
+}
+
+/*==========================
+Footer-Top-Section start
+==========================*/
+.footer-section {
+    text-align: center;
+}
+
+.footer-top {
+    background-color: #0DBF9B;
+    padding: 10px 0;
+}
+
+.footer-top ul {}
+
+.footer-top ul li {
+    display: inline-block;
+    padding: 10px;
+}
+
+.footer-top ul li a {
+    color: #fff;
+    display: inline-block;
+}
+
+.footer-bottom {
+    background-color: #222222;
+    padding: 10px;
+}
+
+.footer-bottom p {
+    color: #4F4F4F;
+    padding-bottom: 5px;
+    font-size: 14px;
+    font-weight: 600;
+    font-family: 'Open Sans', sans-serif;
+}
